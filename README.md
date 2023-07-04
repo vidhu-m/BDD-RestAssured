@@ -37,8 +37,8 @@ Once Java and maven are on place. The process is simple.
   ```sh
   git clone git@github.com:vidhu-m/BDD-RestAssured.git
   ```
-2. Run the below command from inside the project: 
-  ```sh
+2. Run the below command from inside the project:
+```sh
   mvn clean test
   ```
   This will show the status of the proect execution. Once the SUCCESS status is seen, go to the next step.
@@ -46,7 +46,6 @@ Once Java and maven are on place. The process is simple.
    ```sh 
    open target/surefire-reports/
   ```
-  
 
 
 ### Additional requirements
