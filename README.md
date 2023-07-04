@@ -38,15 +38,22 @@ Once Java and maven are on place. The process is simple.
   git clone git@github.com:vidhu-m/BDD-RestAssured.git
   ```
 2. Run the below command from inside the project:
-```sh
+  ```sh
   mvn clean test
   ```
   This will show the status of the proect execution. Once the SUCCESS status is seen, go to the next step.
+  Also, the above command can be used to run specific test cases too. 
+  Like 
+  ```sh
+  mvn test -Dcucumber.options="--tags '@RestAPITest'
+   ```
 3. Open the project folder and analyse the reports.
    ```sh 
    open target/surefire-reports/
   ```
 
+![Report files](img/report-files.jpg)
+![Report status](img/report-status.png)
 
 ### Additional requirements
 
@@ -56,3 +63,4 @@ Once Java and maven are on place. The process is simple.
   - Maven plugin
   
 
+### Please note that a timer is added in between, since the server provides 429:too many requests error, if more than one request is send in 2 minutes. 
