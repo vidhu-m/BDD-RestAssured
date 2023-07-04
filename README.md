@@ -42,8 +42,10 @@ Once Java and maven are on place. The process is simple.
   mvn clean test
   ```
   This will show the status of the proect execution. Once the SUCCESS status is seen, go to the next step.
-  Also, the above command can be used to run specific test cases too. 
-  Like 
+  
+
+  Also, the below command can be used to run specific test cases. 
+  Like,
   ```sh
   mvn test -Dcucumber.options="--tags '@RestAPITest'
    ```
