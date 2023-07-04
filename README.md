@@ -52,9 +52,9 @@ Once Java and maven are on place. The process is simple.
 3. Open the project folder and analyse the reports.
    ```sh 
    open target/surefire-reports/
-  ```
+    ```
 
-![Report files](img/report-files.jpg)
+![Report files](img/report-files.png)
 ![Report status](img/report-status.png)
 
 ### Additional requirements
