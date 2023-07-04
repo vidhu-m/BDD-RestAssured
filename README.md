@@ -54,6 +54,10 @@ Once Java and maven are on place. The process is simple.
    open target/surefire-reports/
     ```
 
+
+### Please note that a timer is added in between, since the server provides 429:too many requests error, if more than one request is send in 2 minutes. 
+
+
 ![Report files](img/report-files.jpg)
 ![Report status](img/report-status.png)
 
@@ -64,5 +68,3 @@ Once Java and maven are on place. The process is simple.
   - Cucumber Editor
   - Maven plugin
   
-
-### Please note that a timer is added in between, since the server provides 429:too many requests error, if more than one request is send in 2 minutes. 
