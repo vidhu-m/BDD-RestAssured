@@ -47,7 +47,7 @@ Once Java and maven are on place. The process is simple.
   Also, the below command can be used to run specific test cases. 
   Like,
   ```sh
-  mvn test -Dcucumber.options="--tags '@RestAPITest'
+  mvn test -Dcucumber.options="--tags '@RestAPITest'"
    ```
 3. Open the project folder and analyse the reports.
    ```sh 
