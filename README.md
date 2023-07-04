@@ -3,7 +3,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This is a small project which can be used for testing API services, with the help of BDD Cucumber. 
+This is a small project to test a REST API employee service (https://dummy.restapiexample.com/) , with the help of BDD Cucumber. 
 Internally maven and Rest Assured is used to run the test cases. For creating the Test Suit, following components are used:
 
 * Java
@@ -15,11 +15,11 @@ Internally maven and Rest Assured is used to run the test cases. For creating th
 ## Getting Started
 
 This is an example of how we can set the project locally.
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running, follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+These things are needed to use the software and how to install them.
 
 * Java:
   The latest or supported Java version need to be installed in the system.
