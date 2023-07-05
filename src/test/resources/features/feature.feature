@@ -1,11 +1,11 @@
 Feature: Test Employee Service Rest API’s with rest assured library and cucumber framework
 
-#@RestAPITest
-#Scenario Outline: Employee GET API test
+@RestAPITest
+Scenario Outline: Employee GET API test
 
-#Given the valid endpoint to fetch employees
-#When the request is send to server 
-#Then validate the response of first employee record having name as Tiger Nixon
+Given the valid endpoint to fetch employees
+When the request is send to server 
+Then validate the response of first employee record having name as Tiger Nixon
 
 #Examples:
     #|page|name |
