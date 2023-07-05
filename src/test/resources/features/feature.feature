@@ -9,8 +9,8 @@ Feature: Test Employee Service Rest API’s with rest assured library and cucumb
 
 #Examples:
     #|page|name |
-    #| 2  |michael.lawson@reqres.in|
-    #| 1  |george.bluth@reqres.in|
+    #| 2  |Tiger|
+   
 
 @RestAPITest
 Scenario Outline: Employee Service API CRUD operations
