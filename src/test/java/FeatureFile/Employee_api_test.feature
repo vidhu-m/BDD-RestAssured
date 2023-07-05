@@ -8,9 +8,8 @@ When the request is send to server
 Then validate the response of first employee record having name as Tiger Nixon
 
 #Examples:
-    #|page|emailID |
-    #| 2  |michael.lawson@reqres.in|
-    #| 1  |george.bluth@reqres.in|
+    #|page|name |
+    #| 1  |Tiger Nixon|
 
 @RestAPITest
 Scenario Outline: Employee Service API CRUD operations
