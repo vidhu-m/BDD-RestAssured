@@ -35,7 +35,7 @@ String id;
     	JsonPath js= new JsonPath(response); //for parsing json
 		String empName=js.getString("data.name");
 		id=js.getString("data.id");
-		System.out.println(empName);
+		//System.out.println(empName);
     }
    
     @And("^the new employee must be created with name as test$")
@@ -43,7 +43,7 @@ String id;
     {
     	JsonPath js= new JsonPath(response); //for parsing json
 		String empName=js.getString("data.name");
-		System.out.println(empName);
+		//System.out.println(empName);
 		Assert.assertEquals(empName, "test");  
     }
    
