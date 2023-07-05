@@ -63,7 +63,7 @@ Once Java and maven are on place. The process is simple.
 
 ### Additional requirements
 
-* Postman to verify the steps in manual way
+* Postman to verify the steps manually.
 * IDE requires the below plugins to continue the development of project:
   - Cucumber Editor
   - Maven plugin
