@@ -15,6 +15,6 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(tags= "@RestAPITest",
 glue = "stepDefinitions",
-features="src/test/java/FeatureFile")
+features="src/test/resources/features")
 public class Runner extends AbstractTestNGCucumberTests{
 }
